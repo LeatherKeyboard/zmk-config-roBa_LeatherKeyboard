@@ -79,6 +79,36 @@
             bindings = <&kp LC(KP_NUMBER_5)>;
             key-positions = <34 4>;
         };
+
+        Layer_0 {
+            bindings = <&to_layer_0 KP_NUMBER_0>;
+            key-positions = <34 37>;
+        };
+
+        Layer_1 {
+            bindings = <&to_layer_0 KP_NUMBER_1>;
+            key-positions = <34 38>;
+        };
+
+        Layer_2 {
+            bindings = <&to_layer_0 KP_NUMBER_2>;
+            key-positions = <34 39>;
+        };
+
+        Layer_3 {
+            bindings = <&to_layer_0 KP_NUMBER_3>;
+            key-positions = <34 40>;
+        };
+
+        Layer_4 {
+            bindings = <&to_layer_0 KP_NUMBER_4>;
+            key-positions = <34 41>;
+        };
+
+        Layer_6 {
+            bindings = <&to_layer_0 KP_NUMBER_6>;
+            key-positions = <34 42>;
+        };
     };
 
     macros {
