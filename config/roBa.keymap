@@ -117,10 +117,10 @@
 
         Cus_Symbol {
             bindings = <
-&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH    &kp DOLLAR      &kp PERCENT                                                                           &kp AMPERSAND           &kp APOSTROPHE     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none
-&kp AT           &kp AMPERSAND      &kp DOLLAR  &none           &none                   &trans                           &kp BACKSPACE                &kp DOUBLE_QUOTES       &kp DOUBLE_QUOTES  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp ENTER
-&kp LEFT_SHIFT   &none              &none       &none           &none                   &to_layer_0 KP_NUMBER_0          &kp DEL                      &kp COMMA               &kp PERIOD         &kp MINUS             &kp SLASH              &kp SEMI
-&trans           &trans             &trans      &kp LEFT_SHIFT  &lt_to_layer_0 1 SPACE  &lt_to_layer_0 2 LANGUAGE_1      &lt_to_layer_0 3 LANGUAGE_2  &lt_to_layer_0 4 SPACE                                                                  &kp SINGLE_QUOTE
+&kp LS(NUMBER_1)  &kp N2  &kp N3  &kp N4  &kp N5                                              &kp N6     &kp N7      &kp N8            &kp N9             &none
+&kp AT            &kp N6  &kp N4  &none   &none   &trans                       &kp BACKSPACE  &kp N2     &kp N2      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp ENTER
+&kp LEFT_SHIFT    &none   &none   &none   &none   &to_layer_0 KP_NUMBER_0      &kp DEL        &kp COMMA  &kp PERIOD  &trans            &trans             &trans
+&trans            &trans  &trans  &trans  &trans  &trans                       &trans         &trans                                                      &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
@@ -128,10 +128,10 @@
 
         Cos_Number {
             bindings = <
-&trans  &none            &kp KP_LEFT_PARENTHESIS  &kp KP_RIGHT_PARENTHESIS  &none                                                                                 &kp KP_NUMBER_0         &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &none
-&none   &kp KP_PLUS      &kp KP_MINUS             &kp KP_EQUAL              &none                   &trans                           &kp BACKSPACE                &kp KP_EQUAL            &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ENTER
-&trans  &kp KP_MULTIPLY  &kp KP_DIVIDE            &none                     &none                   &trans                           &kp DEL                      &kp KP_DOT              &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0
-&trans  &trans           &trans                   &none                     &lt_to_layer_0 1 SPACE  &lt_to_layer_0 2 LANGUAGE_1      &lt_to_layer_0 3 LANGUAGE_2  &lt_to_layer_0 4 SPACE                                                     &none
+&trans  &none            &kp KP_LEFT_PARENTHESIS  &kp KP_RIGHT_PARENTHESIS  &none                              &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &none
+&none   &kp KP_PLUS      &kp KP_MINUS             &kp KP_EQUAL              &none   &trans      &kp BACKSPACE  &kp KP_EQUAL     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ENTER
+&trans  &kp KP_MULTIPLY  &kp KP_DIVIDE            &none                     &none   &trans      &kp DEL        &kp KP_DOT       &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0
+&trans  &trans           &trans                   &trans                    &trans  &trans      &trans         &trans                                                              &none
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -139,10 +139,10 @@
 
         Cus_Arrow {
             bindings = <
-&trans  &none               &kp LG(UP_ARROW)  &none                &none                                                                          &none                    &none           &kp UP_ARROW  &none      &none
-&none   &kp LG(LEFT_ARROW)  &kp LG(TAB)       &kp LG(RIGHT_ARROW)  &none                    &trans                       &none                    &none                    &kp LEFT_ARROW  &none         &kp RIGHT  &kp ENTER
-&trans  &none               &none             &none                &none                    &trans                       &none                    &none                    &none           &kp DOWN      &none      &none
-&trans  &trans              &trans            &none                &to_layer_0 KP_NUMBER_1  &to_layer_0 KP_NUMBER_2      &to_layer_0 KP_NUMBER_3  &to_layer_0 KP_NUMBER_4                                           &none
+&trans  &none               &kp LG(UP_ARROW)  &none                &none                       &none   &none           &kp UP_ARROW  &none      &none
+&none   &kp LG(LEFT_ARROW)  &kp LG(TAB)       &kp LG(RIGHT_ARROW)  &none   &trans      &none   &none   &kp LEFT_ARROW  &none         &kp RIGHT  &kp ENTER
+&trans  &none               &none             &none                &none   &trans      &none   &none   &none           &kp DOWN      &none      &none
+&trans  &trans              &trans            &trans               &trans  &trans      &trans  &trans                                           &none
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
