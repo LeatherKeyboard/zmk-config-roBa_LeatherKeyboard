@@ -117,10 +117,10 @@
 
         Cus_Symbol {
             bindings = <
-&kp LS(NUMBER_1)  &kp N2  &kp N3  &kp N4  &kp N5                                              &kp N6     &kp N7      &kp N8            &kp N9             &none
-&kp AT            &kp N6  &kp N4  &none   &none   &trans                       &kp BACKSPACE  &kp N2     &kp N2      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp ENTER
-&kp LEFT_SHIFT    &none   &none   &none   &none   &to_layer_0 KP_NUMBER_0      &kp DEL        &kp COMMA  &kp PERIOD  &trans            &trans             &trans
-&trans            &trans  &trans  &trans  &trans  &trans                       &trans         &trans                                                      &trans
+&kp LS(NUMBER_1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)                                              &kp LS(N6)  &kp LS(N7)  &kp LS(N8)        &kp LS(N9)         &none
+&kp AT            &kp LS(N6)  &kp LS(N4)  &none       &none       &trans                       &kp BACKSPACE  &kp LS(N2)  &kp LS(N2)  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp ENTER
+&kp LEFT_SHIFT    &none       &none       &none       &none       &to_layer_0 KP_NUMBER_0      &kp DEL        &kp COMMA   &kp PERIOD  &trans            &trans             &trans
+&trans            &trans      &trans      &trans      &trans      &trans                       &trans         &trans                                                       &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
