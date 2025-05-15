@@ -62,17 +62,16 @@
         };
     };
 
-    keymap {
+keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                        &kp T                                                          &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                      &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp COLON                          &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
+&mt TAB Q         &kp W            &kp E         &kp R               &kp T                                                       &kp Y       &kp U  &mt LS(N8) I  &mt LS(N9) O  &kp P
+&mt AT A          &mt AMPERSAND S  &kp D         &kp F               &kp G      &kp LS(LG(S))                     &kp BACKSPACE  &kp H       &kp J  &kp K         &kp L         &kp ENTER
+&mt LEFT_SHIFT Z  &kp X            &kp C         &kp V               &kp B      &mt LC(LS(DELETE)) LG(LS(S))      &kp DELETE     &kp N       &kp M  &kp MINUS     &kp SLASH     &kp SEMI
+&kp LCTRL         &kp LEFT_WIN     &kp LEFT_ALT  &mt LEFT_SHIFT TAB  &kp SPACE  &kp LANG_ZENKAKUHANKAKU           &kp COMMA      &kp PERIOD                                     &lt_to_layer_0 6 SINGLE_QUOTE
             >;
-
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
