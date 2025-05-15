@@ -75,23 +75,13 @@
             key-positions = <35 20>;
         };
 
-        i_combo {
-            bindings = <&i_macro>;
-            key-positions = <13 12>;
-        };
-
-        p_combo {
-            bindings = <&p_macro>;
-            key-positions = <19 18>;
-        };
-
         Ctr_5 {
             bindings = <&kp LC(KP_NUMBER_5)>;
             key-positions = <34 4>;
         };
     };
 
-macros {
+    macros {
         to_layer_0: to_layer_0 {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
@@ -111,7 +101,7 @@ macros {
         };
     };
 
-keymap {
+    keymap {
         compatible = "zmk,keymap";
 
         default_layer {
@@ -121,6 +111,7 @@ keymap {
 &mt LEFT_SHIFT Z  &kp X            &kp C         &kp V               &kp B      &mt LC(LS(DELETE)) LG(LS(S))      &kp DELETE     &kp N       &kp M  &kp MINUS     &kp SLASH     &kp SEMI
 &kp LCTRL         &kp LEFT_WIN     &kp LEFT_ALT  &mt LEFT_SHIFT TAB  &kp SPACE  &kp LANG_ZENKAKUHANKAKU           &kp COMMA      &kp PERIOD                                     &lt_to_layer_0 6 SINGLE_QUOTE
             >;
+
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
@@ -131,6 +122,7 @@ keymap {
 &kp LEFT_SHIFT   &none              &none       &none           &none                   &to_layer_0 KP_NUMBER_0          &kp DEL                      &kp COMMA               &kp PERIOD         &kp MINUS             &kp SLASH              &kp SEMI
 &trans           &trans             &trans      &kp LEFT_SHIFT  &lt_to_layer_0 1 SPACE  &lt_to_layer_0 2 LANGUAGE_1      &lt_to_layer_0 3 LANGUAGE_2  &lt_to_layer_0 4 SPACE                                                                  &kp SINGLE_QUOTE
             >;
+
             sensor-bindings = <&encoder_msc_down_up>;
         };
 
@@ -141,6 +133,7 @@ keymap {
 &trans  &kp KP_MULTIPLY  &kp KP_DIVIDE            &none                     &none                   &trans                           &kp DEL                      &kp KP_DOT              &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0
 &trans  &trans           &trans                   &none                     &lt_to_layer_0 1 SPACE  &lt_to_layer_0 2 LANGUAGE_1      &lt_to_layer_0 3 LANGUAGE_2  &lt_to_layer_0 4 SPACE                                                     &none
             >;
+
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
@@ -151,6 +144,7 @@ keymap {
 &trans  &none               &none             &none                &none                    &trans                       &none                    &none                    &none           &kp DOWN      &none      &none
 &trans  &trans              &trans            &none                &to_layer_0 KP_NUMBER_1  &to_layer_0 KP_NUMBER_2      &to_layer_0 KP_NUMBER_3  &to_layer_0 KP_NUMBER_4                                           &none
             >;
+
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
@@ -161,6 +155,7 @@ keymap {
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &none   &mkp MB4  &kp PAGE_DOWN  &none     &none
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                     &trans
             >;
+
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
@@ -171,6 +166,7 @@ keymap {
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
+
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
@@ -181,6 +177,7 @@ keymap {
 &none  &none  &none  &none   &none   &trans      &bootloader     &none         &none         &none         &none         &bt BT_CLR
 &none  &none  &none  &trans  &trans  &trans      &trans          &trans                                                  &bt BT_CLR_ALL
             >;
+
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
@@ -191,6 +188,7 @@ keymap {
 &none    &none    &none   &none   &none   &none       &none   &none   &none   &none   &none   &none
 &none    &none    &none   &trans  &trans  &trans      &trans  &trans                          &none
             >;
+
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
     };
