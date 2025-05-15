@@ -136,10 +136,10 @@
 
         default_layer {
             bindings = <
-&mt TAB Q         &kp W            &kp E         &kp R               &kp T                                                                    &kp Y       &kp U  &mt LS(N8) I             &mt LS(N9) O         &kp P
+&mt TAB Q         &kp W            &kp E         &kp R               &kp T                                                                    &kp Y       &kp U  &mt JP_LPAREN I             &mt JP_RPAREN O         &kp P
 &mt AT A          &mt AMPERSAND S  &kp D         &kp F               &kp G      &kp LS(LG(S))                           &kp BACKSPACE         &kp H       &kp J  &kp K                    &kp L                &kp ENTER
-&mt LEFT_SHIFT Z  &kp X            &kp C         &kp V               &kp B      &mt LC(LS(DELETE)) LG(LS(S))            &kp DELETE            &kp N       &kp M  &mt LS(BACKSLASH) MINUS  &mt LS(SLASH) SLASH  &mt JP_COLON SEMI
-&kp LCTRL         &kp LEFT_WIN     &kp LEFT_ALT  &mt LEFT_SHIFT TAB  &kp SPACE  &mt LANGUAGE_1 LANG_ZENKAKUHANKAKU      &mt LANGUAGE_2 COMMA  &kp PERIOD                                                       &mt LS(SINGLE_QUOTE) SINGLE_QUOTE
+&mt LEFT_SHIFT Z  &kp X            &kp C         &kp V               &kp B      &mt LC(LS(DELETE)) LG(LS(S))            &kp DELETE            &kp N       &kp M  &mt JP_UNDERSCORE MINUS  &mt LS(SLASH) SLASH  &mt JP_COLON SEMI
+&kp LCTRL         &kp LEFT_WIN     &kp LEFT_ALT  &mt LEFT_SHIFT TAB  &kp SPACE  &mt JP_HANZEN LANGUAGE_1                &mt LANGUAGE_2 COMMA  &kp PERIOD                                                       &mt JP_DQUOTE SINGLE_QUOTE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -147,8 +147,8 @@
 
         Cus_Symbol {
             bindings = <
-&kp LS(NUMBER_1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)                                              &kp LS(N6)  &kp LS(N7)  &kp LS(N8)        &kp LS(N9)         &none
-&kp AT            &kp LS(N6)  &kp LS(N4)  &none       &none       &trans                       &kp BACKSPACE  &kp LS(N2)  &kp LS(N2)  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp ENTER
+&kp EXCLAMATION   &kp JP_DQUOTE  &kp HASH  &kp DOLLAR  &kp PERCENT                                            &kp JP_AMPERSAND    &kp SINGLE_QUOTE    &kp JP_LPAREN    &kp JP_RPAREN    &none
+&kp AT            &kp JP_AMPERSAND  &kp DOLLAR  &none       &none       &trans                       &kp BACKSPACE  &kp JP_DQUOTE  &kp JP_DQUOTE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp ENTER
 &kp LEFT_SHIFT    &none       &none       &none       &none       &to_layer_0 KP_NUMBER_0      &kp DEL        &kp COMMA   &kp PERIOD  &trans            &trans             &trans
 &trans            &trans      &trans      &trans      &trans      &trans                       &trans         &trans                                                       &trans
             >;
