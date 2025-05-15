@@ -123,7 +123,7 @@
 &trans           &trans             &trans      &kp LEFT_SHIFT  &lt_to_layer_0 1 SPACE  &lt_to_layer_0 2 LANGUAGE_1      &lt_to_layer_0 3 LANGUAGE_2  &lt_to_layer_0 4 SPACE                                                                  &kp SINGLE_QUOTE
             >;
 
-            sensor-bindings = <&encoder_msc_down_up>;
+            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         Cos_Number {
