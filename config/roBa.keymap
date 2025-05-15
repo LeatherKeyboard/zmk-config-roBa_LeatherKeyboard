@@ -108,7 +108,7 @@
             bindings = <
 &mt TAB Q         &kp W            &kp E         &kp R               &kp T                                                       &kp Y       &kp U  &mt LS(N8) I  &mt LS(N9) O  &kp P
 &mt AT A          &mt AMPERSAND S  &kp D         &kp F               &kp G      &kp LS(LG(S))                     &kp BACKSPACE  &kp H       &kp J  &kp K         &kp L         &kp ENTER
-&mt LEFT_SHIFT Z  &kp X            &kp C         &kp V               &kp B      &mt LC(LS(DELETE)) LG(LS(S))      &kp DELETE     &kp N       &kp M  &mt F1 MINUS  &mt F1 SLASH  &mt F1 SEMI
+&mt LEFT_SHIFT Z  &kp X            &kp C         &kp V               &kp B      &mt LC(LS(DELETE)) LG(LS(S))      &kp DELETE     &kp N       &kp M  &mt JP_UNDERSCORE MINUS  &mt F1 SLASH  &mt JP_COLON SEMI
 &kp LCTRL         &kp LEFT_WIN     &kp LEFT_ALT  &mt LEFT_SHIFT TAB  &kp SPACE  &kp LANG_ZENKAKUHANKAKU           &kp COMMA      &kp PERIOD                                     &mt F1 SINGLE_QUOTE
             >;
 
