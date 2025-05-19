@@ -81,32 +81,32 @@
         };
 
         Layer_0 {
-            bindings = <&to_layer_0 N0>;
+            bindings = <&to 0>;
             key-positions = <37 24>;
         };
 
         Layer_1 {
-            bindings = <&to_layer_0 NUMBER_1>;
+            bindings = <&to 1>;
             key-positions = <38 24>;
         };
 
         Layer_2 {
-            bindings = <&to_layer_0 NUMBER_2>;
+            bindings = <&to 2>;
             key-positions = <39 24>;
         };
 
         Layer_3 {
-            bindings = <&to_layer_0 NUMBER_3>;
+            bindings = <&to 3>;
             key-positions = <40 24>;
         };
 
         Layer_4 {
-            bindings = <&to_layer_0 NUMBER_4>;
+            bindings = <&to 4>;
             key-positions = <41 24>;
         };
 
         Layer_6 {
-            bindings = <&to_layer_0 NUMBER_6>;
+            bindings = <&to 6>;
             key-positions = <42 24>;
         };
     };
@@ -147,10 +147,10 @@
 
         Cus_Symbol {
             bindings = <
-&kp EXCLAMATION  &kp JP_DQUOTE     &kp HASH    &kp DOLLAR  &kp PERCENT                                              &kp JP_AMPERSAND  &kp SINGLE_QUOTE  &kp JP_LPAREN     &kp JP_RPAREN      &none
-&kp AT           &kp JP_AMPERSAND  &kp DOLLAR  &none       &none        &trans                       &kp BACKSPACE  &kp JP_DQUOTE     &kp JP_DQUOTE     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp ENTER
-&kp LEFT_SHIFT   &none             &none       &none       &none        &to_layer_0 KP_NUMBER_0      &kp DEL        &kp COMMA         &kp PERIOD        &trans            &trans             &trans
-&trans           &trans            &trans      &trans      &trans       &trans                       &trans         &trans                                                                   &trans
+&kp EXCLAMATION  &kp JP_DQUOTE     &kp HASH    &kp DOLLAR  &kp PERCENT                             &kp JP_AMPERSAND  &kp SINGLE_QUOTE  &kp JP_LPAREN     &kp JP_RPAREN      &none
+&kp AT           &kp JP_AMPERSAND  &kp DOLLAR  &none       &none        &trans      &kp BACKSPACE  &kp JP_DQUOTE     &kp JP_DQUOTE     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp ENTER
+&kp LEFT_SHIFT   &none             &none       &none       &none        &to 0       &kp DEL        &kp COMMA         &kp PERIOD        &trans            &trans             &trans
+&trans           &trans            &trans      &trans      &trans       &trans      &trans         &trans                                                                   &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
