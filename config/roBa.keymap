@@ -47,67 +47,72 @@
 
         Zoom_In {
             bindings = <&kp LC(KP_PLUS)>;
-            key-positions = <7 24>;
+            key-positions = <7 12>;
         };
 
         Zoom_Out {
             bindings = <&kp LC(KP_MINUS)>;
-            key-positions = <31 24>;
+            key-positions = <31 12>;
         };
 
         Win_up {
             bindings = <&kp LG(UP_ARROW)>;
-            key-positions = <7 24>;
+            key-positions = <7 12>;
         };
 
         Win_Down {
             bindings = <&kp LG(DOWN_ARROW)>;
-            key-positions = <31 24>;
+            key-positions = <31 12>;
         };
 
         Win_Left {
             bindings = <&kp LG(LEFT_ARROW)>;
-            key-positions = <18 24>;
+            key-positions = <18 12>;
         };
 
         Win_Right {
             bindings = <&kp LG(RIGHT_ARROW)>;
-            key-positions = <20 24>;
+            key-positions = <20 12>;
         };
 
         Ctr_5 {
             bindings = <&kp LC(KP_NUMBER_5)>;
-            key-positions = <4 24>;
+            key-positions = <4 12>;
         };
 
         Layer_0 {
             bindings = <&to 0>;
-            key-positions = <37 24>;
+            key-positions = <37 12>;
         };
 
         Layer_1 {
             bindings = <&to 1>;
-            key-positions = <38 24>;
+            key-positions = <38 12>;
         };
 
         Layer_2 {
             bindings = <&to 2>;
-            key-positions = <39 24>;
+            key-positions = <39 12>;
         };
 
         Layer_3 {
             bindings = <&to 3>;
-            key-positions = <40 24>;
+            key-positions = <40 12>;
         };
 
         Layer_4 {
             bindings = <&to 4>;
-            key-positions = <41 24>;
+            key-positions = <41 12>;
         };
 
         Layer_6 {
             bindings = <&to 6>;
-            key-positions = <42 24>;
+            key-positions = <42 12>;
+        };
+
+        Escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 1>;
         };
     };
 
@@ -169,10 +174,10 @@
 
         Cus_Arrow {
             bindings = <
-&trans  &none               &kp LG(UP_ARROW)  &none                &none                       &none   &none           &kp UP_ARROW  &none      &none
-&none   &kp LG(LEFT_ARROW)  &kp LG(TAB)       &kp LG(RIGHT_ARROW)  &none   &trans      &none   &none   &kp LEFT_ARROW  &none         &kp RIGHT  &kp ENTER
-&trans  &none               &none             &none                &none   &trans      &none   &none   &none           &kp DOWN      &none      &none
-&trans  &trans              &trans            &trans               &trans  &trans      &trans  &trans                                           &none
+&kp ESCAPE  &none               &kp LG(UP_ARROW)  &none                &none                       &none   &none           &kp UP_ARROW  &none      &none
+&none       &kp LG(LEFT_ARROW)  &kp LG(TAB)       &kp LG(RIGHT_ARROW)  &none   &trans      &none   &none   &kp LEFT_ARROW  &none         &kp RIGHT  &kp ENTER
+&trans      &none               &none             &none                &none   &trans      &none   &none   &none           &kp DOWN      &none      &none
+&trans      &trans              &trans            &trans               &trans  &trans      &trans  &trans                                           &none
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
