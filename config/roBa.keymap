@@ -153,7 +153,7 @@
         Cus_Symbol {
             bindings = <
 &kp EXCLAMATION  &kp JP_DQUOTE     &kp HASH    &kp DOLLAR  &kp PERCENT                             &kp JP_AMPERSAND  &kp SINGLE_QUOTE  &kp JP_LPAREN     &kp JP_RPAREN      &none
-&kp AT           &kp JP_AMPERSAND  &kp DOLLAR  &none       &none        &trans      &kp BACKSPACE  &kp JP_DQUOTE     &kp JP_DQUOTE     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp ENTER
+&kp AT           &kp JP_AMPERSAND  &kp DOLLAR  &none       &none        &trans      &kp BACKSPACE  &kp JP_DQUOTE     &kp JP_DQUOTE     &kp JP_LBRACKET  &kp JP_RBRACKET  &kp ENTER
 &kp LEFT_SHIFT   &none             &none       &none       &none        &to 0       &kp DEL        &kp COMMA         &kp PERIOD        &trans            &trans             &trans
 &trans           &trans            &trans      &trans      &trans       &trans      &trans         &trans                                                                   &trans
             >;
