@@ -47,67 +47,67 @@
 
         Zoom_In {
             bindings = <&kp LC(KP_PLUS)>;
-            key-positions = <34 7>;
+            key-positions = <7 24>;
         };
 
         Zoom_Out {
             bindings = <&kp LC(KP_MINUS)>;
-            key-positions = <34 31>;
+            key-positions = <31 24>;
         };
 
         Win_up {
             bindings = <&kp LG(UP_ARROW)>;
-            key-positions = <35 7>;
+            key-positions = <7 24>;
         };
 
         Win_Down {
             bindings = <&kp LG(DOWN_ARROW)>;
-            key-positions = <35 31>;
+            key-positions = <31 24>;
         };
 
         Win_Left {
             bindings = <&kp LG(LEFT_ARROW)>;
-            key-positions = <35 18>;
+            key-positions = <18 24>;
         };
 
         Win_Right {
             bindings = <&kp LG(RIGHT_ARROW)>;
-            key-positions = <35 20>;
+            key-positions = <20 24>;
         };
 
         Ctr_5 {
             bindings = <&kp LC(KP_NUMBER_5)>;
-            key-positions = <34 4>;
+            key-positions = <4 24>;
         };
 
         Layer_0 {
             bindings = <&to_layer_0 N0>;
-            key-positions = <34 37>;
+            key-positions = <37 24>;
         };
 
         Layer_1 {
             bindings = <&to_layer_0 NUMBER_1>;
-            key-positions = <34 38>;
+            key-positions = <38 24>;
         };
 
         Layer_2 {
             bindings = <&to_layer_0 NUMBER_2>;
-            key-positions = <34 39>;
+            key-positions = <39 24>;
         };
 
         Layer_3 {
             bindings = <&to_layer_0 NUMBER_3>;
-            key-positions = <34 40>;
+            key-positions = <40 24>;
         };
 
         Layer_4 {
             bindings = <&to_layer_0 NUMBER_4>;
-            key-positions = <34 41>;
+            key-positions = <41 24>;
         };
 
         Layer_6 {
             bindings = <&to_layer_0 NUMBER_6>;
-            key-positions = <34 42>;
+            key-positions = <42 24>;
         };
     };
 
